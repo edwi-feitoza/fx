@@ -1,0 +1,28 @@
+{
+  "name": "desafiofdex",
+  "version": "1.0.0",
+  "description": "Desafio proposto pela F(x)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Edwi Feitoza",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "express-load": "^1.1.15",
+    "express-validator": "^2.20.8",
+    "jwt-simple": "^0.5.0",
+    "moment": "^2.14.1",
+    "node-rest-client": "^2.0.1",
+    "pg": "^6.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "supertest": "^1.2.0"
+  }
+}
