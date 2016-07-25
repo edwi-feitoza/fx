@@ -1,17 +1,25 @@
-# fx# fx
+# fx
 Olá! Ben vindo ao sistema de desafio da F(x). 
 
 Aqui estão as instruções para rodar o mesmo.
 
 Ao fazer o clone do projeto, deve executar o seguinte comando para instalar as dependências:
 
+```
 npm install
+```
 
 Os scripts que criam os bancos de dados usado pela aplicação encontra-se dentro do diretório 'scripts' na raíz do projeto.
 
 As bases criadas esperam que exista um usuário no PostgreSQL chamado 'nodejs' com uma senha 'nodejsapp'
 
-Para executar o projeto basta executar o comando "npm start". O package.json já tem uma entrada de script para executar a partir do arquivo app.js.
+Para executar o projeto basta executar o comando:
+
+```
+npm start 
+```
+
+O package.json já tem uma entrada de script para executar a partir do arquivo app.js.
 
 O servidor node escutará na porta 8080
 
@@ -19,7 +27,9 @@ A documentação dos endpoints ficará disponível na url http://host:8080/apido
 
 Para executar os testes automatizados de integração do Mocha, deverá setar a variável de ambiente para reconhecer o banco de teste, da seguinte forma
 
+```
 NODE_ENV=test node_modules/mocha/bin/mocha
+```
 
 Abaixo seguem os endpoints criados e quais exigem ou não token de autenticação.
 
