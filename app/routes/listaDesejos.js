@@ -74,7 +74,7 @@ module.exports = function(app){
 				return next(err);
 			}
 			
-			response.status(200).json({error: false, msg: 'Usuário atualizado com sucesso no banco de dados'});
+			response.status(200).json({error: false, msg: 'Lista de desejos atualizada com sucesso no banco de dados'});
 			listaDesejosDAO.desconecta();
 		});
 	});
